@@ -1,7 +1,7 @@
 # CS766_CV_Project
 This project is aimed at enabling automatic content summarization of videos by creating a representative mosaic of the video's object of focus. We intend to do this in a three-step process involving real time object detection, salient object identification and image mosaicing. Each of these steps is described in detail in the forthcoming section.
 
-Methodology
+# Methodology
 Our proposed content summarization pipeline comprises of three modules namely Object detection, Salient Object Identification and Image Mosaicing.
 
 1 Object Detection
