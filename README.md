@@ -1,6 +1,12 @@
 # CS766_CV_Project
 This project is aimed at enabling automatic content summarization of videos by creating a representative mosaic of the video's object of focus. We intend to do this in a three-step process involving real time object detection, salient object identification and image mosaicing. Each of these steps is described in detail in the forthcoming section.
 
+Read more about YOLO (in darknet) [Real-time object detection and classification. Paper: [version 1](https://arxiv.org/pdf/1506.02640.pdf), [version 2](https://arxiv.org/pdf/1612.08242.pdf)] and download weight files [here](http://pjreddie.com/darknet/yolo/). Save this downloaded weight file as yolov2.weights in bin folder.
+
+## Dependencies
+
+Python3, tensorflow, numpy, PIL, opencv 3.
+
 # Methodology
 Our proposed content summarization pipeline comprises of three modules namely Object detection, Salient Object Identification and Image Mosaicing.
 
